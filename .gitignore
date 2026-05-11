@@ -1,0 +1,67 @@
+/backups
+/cache
+/debug
+/downloads
+/file-history
+/history.jsonl
+/ide
+/keybindings.json
+/paste-cache
+/plans
+/plugins
+/projects
+/session-env
+/sessions
+/shell-snapshots
+/stats-cache.json
+/statsig
+/tasks
+/telemetry
+/temp
+/todos
+/chrome
+/usage-data
+/.credentials.json
+/oat-token
+/bare-settings.json
+/*.bak
+/mcp-needs-auth-cache.json
+/transcripts
+/image-cache
+/uploads
+/teams
+# /*
+# !/.gitignore
+# !/agents/*
+# !/skills/*
+# !/hooks/*
+# !/settings.json
+# !/CLAUDE.md
+/claude-dm.log
+/audit-history
+
+# machine specific settings
+/settings.local.json
+
+# home project claude state files
+/worktrees
+/scheduled_tasks.lock
+/scheduled_tasks.json
+
+# project claude state files
+.claude/worktrees
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
+
+# archibate personal skills
+/skills/adb-wireless
+/skills/bilibili-mp3
+/skills/bilibili-cover
+/skills/sync-translation
+/skills/system-monitor
+
+__pycache__/
+RTK.md
+.codex
+.claude-usage-cache.json
+/.last-cleanup
